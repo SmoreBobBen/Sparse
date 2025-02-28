@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------
-#  Makefile for CSE 101 Programming Assignment 4
+#  Makefile for Sparse
 #
 #  make                     makes Sparse
 #  make MatrixTest          makes MatrixTest
