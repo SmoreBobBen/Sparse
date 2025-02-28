@@ -1,7 +1,7 @@
 # Sparse.c
-Main program for this assignment.
+Main program for this program.
 
-I implemented the file reading in much the same way that I did for previous assignments. I copied my readInt function from pa2 with no change, but then also used it as a basis for a new function, readDouble, alongside a helper function, exponent. Double does the same thing as readInt, but with some differences: it can detect a `.` character, initating a new kind of number read which, rather than multiplying the currently read number by 10 and adding the single-digit read result, will multiply the read result by 10^n before adding it to the already read number, where n is the number of places past the decimal point that the function is reading. My exponent function is a helper for this because it simply computes a number to the power of n, in this case 10^n.
+I used a readInt function I had created for a previous project, but then also used this function as a basis for a new function, readDouble, alongside a helper function, exponent. Double does the same thing as readInt, but with some differences: it can detect a `.` character, initating a new kind of number read which, rather than multiplying the currently read number by 10 and adding the single-digit read result, will multiply the read result by 10^n before adding it to the already read number, where n is the number of places past the decimal point that the function is reading. My exponent function is a helper for this because it simply computes a number to the power of n, in this case 10^n.
 
 Once I had gotten readDouble to work properly I had a few more issues. I had to add functionality for negative values to readDouble, and then had to account for various formatting edge-cases in the input files, such as having more entries per matrix than the pre-stated number of nonzero entries. Then, there were some simple bugs in my diff and sum functions to fix, and i was done.
 
@@ -36,4 +36,4 @@ Currently empty. List would be hard to thoroughly test without a different ADT t
 This file, index of other files
 
 # Makefile
-Copied directly from example pa4 makefile.
+Copied from an example. Tweaked slightly.
