@@ -1,8 +1,6 @@
 //-----------------------------------------------------------------------------
 // List.h
 // programmer: Benjamin Watkins
-// cruzid: bdwatkin
-// assignment: pa4
 //
 // based on code from https://people.ucsc.edu/~ptantalo/cse101/Fall24/pa1.pdf
 //-----------------------------------------------------------------------------
